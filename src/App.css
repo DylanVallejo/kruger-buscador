@@ -1,4 +1,81 @@
+
+*{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
 .App {
   text-align: center;
 }
+.headerApp{
+  width: 97%;
+  display: flex;
+  height: 10vh; 
+  text-align: center;
+  padding: 5px;
+  /* box-sizing: content-box; */
+  background-image: url('https://krugercorp.com/wp-content/uploads/2022/10/bg-menu-e1647277565718.png');
+ /* 2 background-image: url('https://krugercorp.com/wp-content/uploads/2022/10/bg-menu-e1647277565718.png') */
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-between;
+}
+.kmaleonImg{
+  height: 100%;
+  box-sizing: content-box;
+  margin: auto 10px auto 10%;
+  
+}
+.contenedorlogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.kImg{
+  height: 100%;
+  box-sizing: content-box;
+  margin: auto 10px auto 10px;
+  border-radius: 50px 10px 50px 10px;
 
+}
+.spanHeader{
+  margin: auto 10px auto 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 150%;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titleApp{
+  margin: auto 10% auto 10px;
+  font-size: 150%;
+  box-shadow: 1px;
+  font-weight: 700;
+}
+p{
+  margin: auto 10px auto 10px;
+  
+}
+
+@media (max-width: 600px){
+  .headerApp{
+    display: flex;
+    width: auto;
+  }
+  .titleApp{
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .spanHeader{
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .kmaleonImg{
+    height: 100%;
+    box-sizing: content-box;
+    margin: auto 10px auto 5%;
+  }
+}
